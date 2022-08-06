@@ -11,16 +11,16 @@
 
 `sudo systemctl status nginx`
 
-![nginx installation status](..\Images\nginx-status.png)
+![nginx installation status](./Images/nginx-status.png)
 
  `curl http://127.0.0.1:80`
 
-![nginx terminal status](..\Images\nginx-cmd-status.png)
+![nginx terminal status](./Images/nginx-cmd-status.png)
 
 
 Html Image for nginx default page
 
-![nginx default page](..\Images\nginx-html-status.png)
+![nginx default page](./Images/nginx-html-status.png)
 
 
 ### Documentation for Mysql Installation
@@ -31,7 +31,7 @@ Html Image for nginx default page
 
 `sudo mysql_secure_installation`
 
-![mysql server config status](..\Images\mysql-status.png)
+![mysql server config status](./Images/mysql-status.png)
 
 
 ## Documentation for php Installation
@@ -40,7 +40,7 @@ Html Image for nginx default page
 
 `php -v`
 
-![php status](..\Images\php-status.png)
+![php status](./Images/php-status.png)
 
 
 ## Dcumentation for configuring Nginx to use php processor
@@ -91,7 +91,7 @@ server {
 
 `http://18.130.151.183:80`
 
-![php status config](..\Images\php-status-config.png)
+![php status config](./Images/php-status-config.png)
 
 
 ## Documentation on testing php with nginx
@@ -105,7 +105,7 @@ phpinfo();
 
 http://18.130.151.183/info.php
 
-![php html status](..\Images\php-output-status.png)
+![php html status](./Images/php-output-status.png)
 
 
 ## Documentation on retrieving data from mysql database with php
@@ -124,7 +124,7 @@ http://18.130.151.183/info.php
 
 `mysql> SHOW DATABASES;`
 
-![show database](..\Images\database-status.png)
+![show database](./Images/database-status.png)
 
 `mysql>CREATE TABLE example_database.todo_list (item_id INT AUTO_INCREMENT, content VARCHAR(255), PRIMARY KEY(item_id));`
 
@@ -169,4 +169,4 @@ try {
 
 http://18.169.237.75/todo_list.php
 
-![show table on html](..\Images\html-database-status.png)
+![show table on html](./Images/html-database-status.png)
