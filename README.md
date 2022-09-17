@@ -140,7 +140,7 @@ http://18.130.151.183/info.php
 
 `mysql>  SELECT * FROM example_database.todo_list;`
 
-![show table](..\Images\database.png)
+![show table](./Images/database.png)
 
 `mysql> exit`
 
@@ -170,3 +170,4 @@ try {
 http://18.169.237.75/todo_list.php
 
 ![show table on html](./Images/html-database-status.png)
+
